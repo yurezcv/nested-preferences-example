@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Nested screen #2">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="nested_screen2"
+        android:title="Nested screen 2 check box" />
+</PreferenceScreen>

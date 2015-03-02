@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Main category" >
+
+        <EditTextPreference
+            android:defaultValue="defaultValue"
+            android:key="key_global_setting"
+            android:title="Global title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Nested screens" >
+
+        <Preference
+            android:key="NESTED_KEY1"
+            android:persistent="false"
+            android:title="Nested screen #1" />
+
+        <Preference
+            android:key="NESTED_KEY2"
+            android:persistent="false"
+            android:title="Nested screen #2" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen> 
